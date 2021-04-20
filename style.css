@@ -1,0 +1,117 @@
+:root{
+    --primary-color: #1D87A4;
+    --bg: #D3ECF7;
+    --text-title:#845EC2;
+    --button: #845EC2;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: fluria;
+    src: url(fonts/FLURIA.OTF);
+    
+    
+    background-color: var(--bg);
+}
+
+#title{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+#img-div{
+    
+    display: grid;
+    grid-column: auto;
+    justify-items: center;
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    background-color: var(--primary-color);
+  
+}
+
+#img-div img{
+    border-radius:50%;
+    max-width: 100%;
+    width: 50%;
+    height:auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+#main{
+    display: grid;
+    grid-column:auto;
+    justify-content: center;
+}
+
+.h_w{
+    font-size: 18px;
+    width: 800px;
+    background-color: aliceblue;
+    padding: 40px;
+    margin: 20px;
+    border-radius: 5%;
+
+}
+
+.h_w:hover{
+    box-shadow: 7px 3px 35px #6b6b6b;
+}
+
+.h_w ul>li{
+    list-style: none;
+    line-height: 30px;
+}
+
+.h_w h2{
+    text-align: center;
+    padding-bottom: 5px;
+    color: var(--text-title);
+}
+
+.quote{
+    font-size: 28px;
+    text-align: center;
+}
+.bottom{
+    text-align: center;
+    background-color: var(--primary-color);
+    color: #ffffff;
+    padding: 40px;
+}
+
+.btn{
+    width: 120px;
+    height:35px;
+    background-color: var(--button);
+    border:none;
+    border-radius:10px;
+    margin-top: 10px;
+    color:#fff;
+}
+
+.btn:hover{
+    cursor: pointer;
+    background-color: #31a453;
+}
+
+#tribute-link{
+    text-decoration: none;
+   
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    font-size: 18px;
+}
